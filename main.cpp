@@ -64,6 +64,8 @@ void main()
                     {
                         RGB color_neighbor = getPixelColor(rgb_array, res_x, res_y, i + sub_i - 1, j + sub_j - 1);
 
+                        // Red, green, blue colors are filtered separately.
+                        // You may mix 3 colors to make one gray scale.
                         color_neighbor.red_ *= conv_mat[sub_i][sub_j];
                         color_neighbor.green_ *= conv_mat[sub_i][sub_j];
                         color_neighbor.blue_ *= conv_mat[sub_i][sub_j];
