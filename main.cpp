@@ -1,3 +1,7 @@
+/*
+    Written by Prof. Jeong-Mo Hong at CSE Dongguk University.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "BMPImage.h"
